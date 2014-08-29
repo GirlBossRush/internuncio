@@ -32,6 +32,7 @@ class Internuncio
       datetime.getHours() + ":" + datetime.getMinutes() + ":" + datetime.getMilliseconds()
 
     for level, levelColor of @levels
+      continue unless console[level]?
       @[level] = console[level].bind console,
         "%c[%s] %c[%s] %c[%s]"
         levelColor
@@ -41,6 +42,8 @@ class Internuncio
         namespaceColor
         namespace
 
+# The levels below represent expected defaults.
+# Log level support is varied depending on the environment.
 Internuncio.prototype.levels =
   debug: new Color("#ff1493")
   error: new Color("#ff0000")
