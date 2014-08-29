@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Application logging.",
   "main": "internuncio.js",
+  "prepublish": "gulp build",
   "keywords": [
     "log",
     "logging"
