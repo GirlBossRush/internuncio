@@ -4,5 +4,3 @@
 # Ignore all logfiles and tempfiles.
 *.log
 node_modules/**/*
-# Build.
-internuncio.js
