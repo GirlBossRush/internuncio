@@ -1,0 +1,18 @@
+{
+  "name": "internuncio",
+  "version": "0.0.0",
+  "description": "Application logging.",
+  "main": "internuncio.js",
+  "keywords": [
+    "log",
+    "logging"
+  ],
+  "author": "Cerego Japan Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.7",
+    "coffee-script": "~1.7.1",
+    "require-dir": "~0.1.0",
+    "gulp-coffee": "~2.1.2"
+  }
+}
