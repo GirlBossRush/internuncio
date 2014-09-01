@@ -4,6 +4,10 @@
   "description": "Application logging.",
   "main": "internuncio.js",
   "prepublish": "gulp build",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cerego/internuncio.git"
+   },
   "keywords": [
     "log",
     "logging"
